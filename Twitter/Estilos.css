@@ -1,0 +1,484 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, sans-serif;
+}
+
+#CuadroA{
+	background-color: white;
+	height: 1000px;
+	width: calc(27%);
+	position: relative;
+	float: left;
+}
+	
+	#logo{
+		width: 60px;
+		height: 60px;
+		margin-left: calc(20%);
+		margin-top: 15px;
+	}
+
+	#logo>img{
+		height: 100%;
+	}
+
+	nav{
+		margin-left: calc(20%);
+		height: 100%;
+	}
+
+	ul{
+		height: 100%;
+		list-style: none;
+	}
+
+	li{
+		width: calc(90%);
+		height: 60px;
+		position: relative;
+		float: left;
+		margin-top: 30px;
+		font-size: 24px;
+		font-weight: bold;
+		box-sizing: border-box;
+		cursor: pointer;
+	}
+
+		.TextoMenuA{
+			width: 100px;
+			height: 100px;
+			position: relative;
+			float: right;
+			line-height: 60px;
+			margin-right: 80px;
+		}
+
+		#Seleccionado{
+			color: #4EB6F5;
+		}
+
+		li>img{
+			height: 100%;
+			margin-right: 50px;
+		}
+
+		#Tweet{
+			width: calc(80%);
+			height: calc(7%);
+			line-height: 70px;
+			padding-left: calc(28%); 
+			background-color: #4EB6F5;
+			font-size: 24px;
+			border-radius: 150px;
+		}
+
+#CuadroB{
+	width: calc(46%);
+	height: 1000px;
+	position: relative;
+	float: left;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: #dfe6e9;
+	background-color: rgb(189, 195, 199, 0.2);
+}
+	
+	#CuadroEstados{
+		width: 100%;
+		height: calc(7%);
+		position: relative;
+		float: left;
+		padding: 2%;
+		box-sizing: border-box;
+		border-style: solid;
+		border-width: 0.5px;
+		border-color: #dfe6e9;
+		background-color: white;
+	}
+
+		#Texto{
+			font-weight: bold;
+			font-size: 27px;
+			line-height: 50px;
+		}
+
+		#Icono{
+			width: 50px;
+			height: 50px;
+			position: relative;
+			float: left;
+			margin-left: 625px;
+			margin-top: -55px;
+		}
+
+		#Icono>img{
+			height: 100%;
+		}
+
+	#CuadroEstados2{
+		width: 100%;
+		height: calc(20%);
+		margin-top: 10%;
+		border-style: solid;
+		border-width: 0.5px;
+		border-color: #dfe6e9;
+		background-color: white;
+	}
+
+		#Perfil{
+			width: 75px;
+			height: 75px;
+			margin-top: 20px;
+			margin-left: 20px;
+			border-radius: 50%;
+			overflow: hidden;
+			position: relative;
+			float: left;
+		}
+
+		#Perfil>img{
+			height: 100%;
+			width: 100%;
+			cursor: pointer;
+		}
+
+		#WH{
+			color: gray;
+			position: relative;
+			float: left;
+			box-sizing: border-box;
+			line-height: 110px;
+			padding-left: 45px;
+		}
+
+		.Iconos{
+			width: 30px;
+			height: 30px;
+			position: relative;
+			float: left;
+			margin-right: 160px;
+			margin-top: 130px;
+			margin-left: -140px;
+			box-sizing: border-box;
+		}
+
+		.Iconos>img{
+			height: 100%;
+			width: 100%;
+			cursor: pointer;
+		}
+
+		#TweetPequeño{
+			height: 50px;
+			width: 100px;
+			position: relative;
+			float: left;
+			margin-top: 120px;
+			margin-left: 90px;
+			line-height: 50px;
+			padding-left: 25px;
+			box-sizing: border-box;
+			border-radius: 25px;
+			background-color: #4EB6F5;
+			font-size: 20px;
+			font-weight: bold;
+			cursor: pointer;
+		}
+
+	#CuadroNoticias{
+		width: 100%;
+		height: calc(69%);
+		background-color: white;
+		position: relative;
+		float: left;
+		margin-top: 5%;
+		border: 1px solid #dfe6e9;
+	}
+
+		#PublicacionA{
+			width: 100%;
+			height: 20%;
+			box-sizing: border-box;
+			border: 1px solid #dfe6e9;
+		}
+
+			.PerfilP{
+				width: 55px;
+				height: 55px;
+				margin-top: 20px;
+				margin-left: 20px;
+				border-radius: 50%;
+				overflow: hidden;
+				position: relative;
+				float: left;
+				background-color: gray;
+			}
+
+			.PerfilP>img{
+				height: 100%;
+				width: 100%;
+				cursor: pointer;
+			}
+
+			.NombreP{
+				font-size: 20px;
+				font-weight: bold;
+				float: left;
+				position: relative;
+				line-height: 60px;
+				margin-left: 15px;
+				cursor: pointer;
+			}
+
+			.User{
+				color: gray;
+				margin-left: 10px;
+				position: relative;
+				float: left;
+				line-height: 56px;
+			}
+
+			.Texto{
+				position: relative;
+				float: left;
+				margin-left: 15px;
+				margin-top: -10px;
+			}
+
+			#IconosFull{
+				width: 100%;
+				height: 50px;
+				float: left;
+				position: relative;
+				margin-top: 10px;
+			}
+
+			.IconosPub{
+				width: 30px;
+				height: 30px;
+				position: relative;
+				float: left;
+				margin-top: 10px;
+				box-sizing: border-box;
+				margin-left: 60px;
+				margin-right: 75px;
+				cursor: pointer;
+			}
+
+			.IconosPub>img{
+				height: 100%;
+				width: 100%;
+			}
+
+		#PublicacionB{
+			width: 100%;
+			height: 60%;
+			background-color: white;
+			position: relative;
+			float: left;
+			border: 1px solid #dfe6e9;
+			box-sizing: border-box;
+		}
+
+		#IconosFullB{
+			width: 100%;
+			height: 50px;
+			float: left;
+			position: relative;
+			margin-top: 5px;
+		}
+
+		#ImagePubB{
+			width: 275px;
+			height: 275px;
+			position: relative;
+			float: left;
+			margin-top: 15px;
+			margin-left: 110px;
+			border: 0.5px solid black;
+			border-radius: 20px;
+			overflow: hidden;
+		}
+
+		#ImagePubB>img{
+			height: 100%;
+			width: 100%;
+		}
+
+		#PublicacionC{
+			width: 100%;
+			height: 20%;
+			background-color: white;
+			position: relative;
+			float: left;
+			border: 1px solid #dfe6e9;
+		}
+
+		#TextoC{
+			position: relative;
+			float: left;
+			margin-top: -10px;
+			padding-right: 60px;
+			margin-left: 15px;
+			box-sizing: border-box;
+		}
+
+#Trends{
+	width: calc(26%);
+	height: 1000px;
+	background-color: white;
+	position: relative;
+	float: left;
+	border: 1px solid #dfe6e9;
+}
+
+	#Buscador{
+		width: 90%;
+		height: 50px;
+		background-color: #bdc3c7;
+		margin-left: 5%;
+		margin-top: 5px;
+		border-radius: 15px;
+		position: relative;
+		float: left;
+		font-family: arial;
+		font-size: 16px;
+	}
+
+	#TrendsFull{
+		width: 90%;
+		height: 780px;
+		position: relative;
+		float: left;
+		margin-top: 20px;
+		margin-left: 5%;
+		border-radius: 10px;
+	}
+
+	#Trends0{
+		width: 100%;
+		height: calc(5%);
+		border: 0.5px #dfe4ea solid;
+		background-color: rgb(189, 195, 199, 0.2);
+	}
+
+		#TextoTr{
+			font-weight: bold;
+			font-size: 20px;
+			float: left;
+			position: relative;
+			line-height: 45px;
+			margin-left: 10px;
+		}
+
+		#TextoB{
+			font-size: 20px;
+			float: left;
+			position: relative;
+			line-height: 45px;
+			margin-left: 10px;
+			color: skyblue;
+		}
+
+		#Engranaje{
+			width: 40px;
+			height: 40px;
+			position: relative;
+			float: right;
+			margin-right: 10px;  
+		}
+
+		#Engranaje>img{
+			width: 100%;
+			height: 100%;
+		}
+
+	.Trends1{
+		width: 100%;
+		height: calc(25%);
+		border: 0.5px #dfe4ea solid;
+		background-color: rgb(189, 195, 199, 0.2);
+	}
+
+	.Trends2{
+		width: 100%;
+		height: calc(20%);
+		box-sizing: border-box;
+		padding: 3px;
+		border: 0.5px #dfe4ea solid;
+		background-color: rgb(189, 195, 199, 0.2);
+	}
+
+		.TrendTrend{
+			width: 95%;
+			height: 105px;
+			background-color: white;
+			border-radius: 20px;
+			margin-left: 10px;
+			margin-top: 2%;
+			float: left;
+			position: relative;
+		}
+
+		.TextTrend{
+			margin-left: 15px;
+			margin-top: 15px;
+			padding: 0px;
+			width: 175px;
+			height: 50px;
+			font-size: 18px;
+		}
+
+		.TextTrend2{
+			margin-left: 15px;
+			margin-top: 15px;
+			padding: 0px;
+			width: 300px;
+			height: 50px;
+			font-size: 18px;
+		}
+
+		.TextoCuadroTrend{
+			width: 70%;
+			height: 100%;
+			font-size: 16px;
+			position: relative;
+			float: left;
+			box-sizing: border-box;
+			padding: 10px;
+			padding-top: 15px;
+			border: 0.5px #dfe4ea solid;
+			border-radius: 15px 0px 0px 15px;
+		}
+
+		.ImagenTrend{
+			width: 30%;
+			height: 100%;
+			background-color: orange;
+			float: left;
+			position: relative;
+			overflow: hidden;
+			border-radius: 0px 15px 15px 0px;
+		}
+
+		.ImagenTrend>img{
+			width: 100%;
+			height: 100%;
+		}
+
+#Follow{
+	width: 90%;
+	background-color: red;
+	height: 90px;
+	position: relative;
+	float: left;
+	margin: 5%;
+	margin-top: 13%;
+	box-sizing: border-box;
+	padding: 20px;
+	font-size: 24px;
+	font-weight: bolder;
+	background: rgb(189, 195, 199, 0.2);
+	border-radius: 20px 20px 0px 0px;
+}
